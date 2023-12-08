@@ -156,4 +156,5 @@ for (let i = 1; i < finances.length; i++) {
       greatestDecrease.date = finances[i][0];
     }
   }
- 
+
+  let averageChange = totalChange / (totalMonths - 1);
