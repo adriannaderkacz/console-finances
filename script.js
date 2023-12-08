@@ -158,3 +158,11 @@ for (let i = 1; i < finances.length; i++) {
   }
 
   let averageChange = totalChange / (totalMonths - 1);
+
+  console.log('Financial Analysis');
+  console.log('------------------');
+  console.log('Total Months:', totalMonths);
+  console.log('Total:', '$' + totalProfits.toLocaleString());
+  console.log('Average Change:', '$' + averageChange.toFixed(2));
+  console.log('Greatest Increase in Profits/Losses:', greatestIncrease.date, '($' + greatestIncrease.amount.toLocaleString() + ')');
+  console.log('Greatest Decrease in Profits/Losses:', greatestDecrease.date, '($' + greatestDecrease.amount.toLocaleString() + ')');
