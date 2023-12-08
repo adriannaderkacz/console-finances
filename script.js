@@ -137,3 +137,23 @@ let greatestIncrease = { date: finances[0][0], amount: 0 };
 let greatestDecrease = { date: finances[0][0], amount: 0 };
 let totalChange = 0;
 
+for (let i = 1; i < finances.length; i++) {
+    let currentProfit = finances[i][1];
+    let previousProfit = finances[i - 1][1];
+    let change = currentProfit - previousProfit;
+  
+    totalProfits += currentProfit;
+  
+    totalChange += change;
+  
+    if (change > greatestIncrease.amount) {
+      greatestIncrease.amount = change;
+      greatestIncrease.date = finances[i][0];
+    }
+  
+    if (change < greatestDecrease.amount) {
+      greatestDecrease.amount = change;
+      greatestDecrease.date = finances[i][0];
+    }
+  }
+ 
