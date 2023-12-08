@@ -130,3 +130,10 @@ var finances = [
 //previous data point
 
 //Given dataset: finances (an array of objects with fields 'Date' and 'Profit/Losses')
+
+let totalMonths = finances.length;
+let totalProfits = finances[0][1];
+let greatestIncrease = { date: finances[0][0], amount: 0 };
+let greatestDecrease = { date: finances[0][0], amount: 0 };
+let totalChange = 0;
+
