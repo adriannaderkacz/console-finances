@@ -35,8 +35,7 @@ https://adriannaderkacz.github.io/console-finances/
 3. Run the script to see the financial analysis printed to the console.
 
 ## Credits
-- https://www.svgbackgrounds.com/ - I used SVG Backgrounds to create a custom, gradient background for my landing page.
-- https://www.shapedivider.app/ - I used Custom Shape Divider to create a custom divder for my landing page.
+N/A
 
 ## License
 MIT License
