@@ -8,6 +8,7 @@ This challange and its JavaScript code is designed to analyse financial records 
 - [Installation](#installation)
 - [Analysis Results](#analysisresults)
 - [Usage](#usage)
+- [Page](#page)
 - [Credits](#credits)
 - [License](#license)
 
@@ -22,12 +23,12 @@ The analysis results will be displayed in the console, providing key financial i
 - Greatest Increase in Profits/Losses (with date and amount)
 - Greatest Decrease in Profits/Losses (with date and amount)
 
-## Usage
+## Page
 https://adriannaderkacz.github.io/console-finances/ 
 
-[screenshot]
+<img src="/styles/page1.png>
 
-[screenshot]
+<img src="./styles/page2.png> 
 
 ## Usage
 1. Copy the provided financial dataset to your JavaScript environment.
