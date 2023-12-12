@@ -26,9 +26,9 @@ The analysis results will be displayed in the console, providing key financial i
 ## Page
 https://adriannaderkacz.github.io/console-finances/ 
 
-<img src="/styles/page1.png>
+<img width="1428" alt="page1" src="https://github.com/adriannaderkacz/console-finances/assets/92231751/6e67f35d-b7a9-453f-a5ed-d6a6d6a12dfc">
 
-<img src="./styles/page2.png> 
+<img width="438" alt="page2" src="https://github.com/adriannaderkacz/console-finances/assets/92231751/b856ff05-9d5c-4adc-9bc2-c0848ab81d34">
 
 ## Usage
 1. Copy the provided financial dataset to your JavaScript environment.
